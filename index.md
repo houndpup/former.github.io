@@ -1,5 +1,7 @@
-Here you can say lots of fun things about your site.
+WELCOME! Thanks for visiting my ~site.
 
-Maybe say a some things about yourself.
+Whether I've lured you here by means of Social Engineering or you're just bored - I hope you find some value out of the site.
 
-Or maybe what you plan to blog about.
+I highly encourage and welcome feedback, tell me what you want to see and what I am doing wrong.
+
+bye. >
