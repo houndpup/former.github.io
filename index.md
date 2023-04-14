@@ -4,7 +4,7 @@ Whether I've lured you here by means of Social Engineering or you're just bored,
 
 I highly encourage and welcome feedback, tell me what you want to see and what I am doing wrong.
 
-I share my thoughts on topics involving Splunk, Cybersecurity, Syslog, and much more :)
+You may find this blog useful if you're interested in: Cybersecurity, IT, SRE, Splunk, Detection Engineering, SIEM, syslog
 
 ### About Me
 Senior SE @ Splunk
