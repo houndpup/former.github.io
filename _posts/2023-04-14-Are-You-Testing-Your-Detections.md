@@ -36,15 +36,15 @@ This is where the fun begins. It is going to feel great when you see those detec
 
 As you begin looking into what type of simulation tool you need, ask yourself some guiding questions like:
 
-Do I need a free tool or can I get budget for this?
-What type of attacks will I be performing?
-What kind of infrastructure will I host the attack simulation tool on?
+- Do I need a free tool or can I get budget for this?
+- What type of attacks will I be performing?
+- What kind of infrastructure will I host the attack simulation tool on?
 
 These questions will help you narrow down what is best to use.
 
 2. Schedule and plan when to run your attacks
 
-Once you have selected your attack simulation tool, you will want to run the attack techniques that are covered by your detections. Make sure that you have notified your security department that this will be occuring on X date. This should be a frequent process to keep your detections up to date and fresh. Once they are complete, check to ensure your detections have triggered.
+Once you have selected your attack simulation tool, you will want to run the attack techniques that are covered by your detections. <b> Make sure that you have notified your security department that this will be occuring on X date </b>. This should be a frequent process to keep your detections up to date and fresh. Once they are complete, check to ensure your detections have triggered.
 
 3. Update logic behind alerts
 
