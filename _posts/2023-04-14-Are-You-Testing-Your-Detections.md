@@ -42,9 +42,11 @@ As you begin looking into what type of simulation tool you need, ask yourself so
 
 These questions will help you narrow down what is best to use.
 
+I personally recommend Atomic Red Team. This is an open source tool with active contributors and is built extremely well.
+
 2. Schedule and plan when to run your attacks
 
-Once you have selected your attack simulation tool, you will want to run the attack techniques that are covered by your detections. <b> Make sure that you have notified your security department that this will be occuring on X date </b>. This should be a frequent process to keep your detections up to date and fresh. Once they are complete, check to ensure your detections have triggered.
+Once you have selected your attack simulation tool, you'll want to run the attack techniques that are covered by your detections. <b> Make sure that you have notified your security department that this will be occuring on X date </b>. This should be a frequent process to keep your detections up to date and fresh. Once they are complete, check to ensure your detections have triggered.
 
 3. Update logic behind alerts
 
