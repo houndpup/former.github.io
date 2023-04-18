@@ -14,15 +14,13 @@ Detection engineers are generally responsible for staying up to date with the la
 Ultimately, the structure of the security team at your organization does not matter. What really matters is that the folks that are building these detections are taking the next step: testing them.
 
 
-### Why aren't people testing detections?
+### Why aren't Security teams testing detections?
 1. Resource shortage
 2. Rely solely on red team engagements
 3. Stubbornness
 4. Relatively new topic that isn't talked about as much as other security topics
 
 These are just a few vague reasons why companies aren't taking the next step and testing detections. For starters, it certainly does take time and resources. You can't expect to implement a formalized testing process within a couple of hours. Some may even say it's a big enough effort to turn into a project. When I say stubbornness, I am referring to the fact that folks may think that their detections are perfect and don't need testing. The simple fact is that TTP's change as well as most IOCs, so it is important to ensure you're testing your work with up to date attack simulations. And lastly, this is not a widely talked about topic. This is one of the reasons I'm writing this article, with the hopes of spreading the word.
-
-So, with all of this being said, it is important to test your detections.
 
 I'm sure you're thinking, well, thanks for telling me all of this. What do you expect me to do now?
 
@@ -37,12 +35,23 @@ This is where the fun begins. It is going to feel great when you see those detec
 As you begin looking into what type of simulation tool you need, ask yourself some guiding questions like:
 
 - Do I need a free tool or can I get budget for this?
-- What type of attacks will I be performing?
-- What kind of infrastructure will I host the attack simulation tool on?
+- What type of attacks will I be performing? (ex: DCSync, Kerberoasting, Brute Force)
+- What type of infrastructure will I be performing the attacks on? (Cloud infrastructure, Linux/Windows servers, Windows workstations, etc)
+- What kind of infrastructure will I host the attack simulation tool on? 
 
 These questions will help you narrow down what is best to use.
 
-I personally recommend Atomic Red Team. This is an open source tool with active contributors and is built extremely well.
+I personally recommend Atomic Red Team if you are running attacks against Windows and Linux infrastructure. This is an open source tool with active contributors and is built extremely well. There are plenty of others to choose from if you would like to experiment. 
+
+https://github.com/redcanaryco/atomic-red-team
+https://github.com/mitre/caldera
+https://github.com/uber-common/metta
+https://github.com/TryCatchHCF/DumpsterFire
+
+
+If you are wanting to run attacks against your Cloud infrastructure, look into Stratus.
+
+https://github.com/DataDog/stratus-red-team
 
 2. Schedule and plan when to run your attacks
 
@@ -56,4 +65,8 @@ This step is necessary if you find that your detections are not firing. It is im
 
 Now that you've tested your detections, it is time to keep building and staying current with the trends. You have implemented a formalized process and have helped mature your security team, time to celebrate! 
 
-I have some great articles that I recommend reading:
+Some great articles/videos that I recommend:
+
+Keith Mccammon's Testing the Detections in your SOC: https://redcanary.com/blog/testing-validation-security-operations-center/
+Kyle Bailey's talk at Blue Team Summit (SANS) on Detection Maturity: https://www.youtube.com/watch?v=Dxccs8UDu6w
+Patrick Bareiss and Jose Hernandez on DaC, Detection as Code: https://www.youtube.com/watch?v=_JEvyem4ryg
