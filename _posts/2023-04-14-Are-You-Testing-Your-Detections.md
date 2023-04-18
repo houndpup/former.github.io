@@ -70,7 +70,7 @@ This step is only necessary if you find that your detections are not firing. Div
 
 Now that you've tested your detections, it is time to keep building and staying current with the trends. You have implemented a formalized process and have helped mature your security team, time to celebrate! 
 
-![a](/docs/assets/a.png)
+![a](/docs/assets/a.jpeg)
 
 
 Some great articles/videos that I recommend:
