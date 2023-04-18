@@ -14,7 +14,7 @@ Detection engineers are generally responsible for staying up to date with the la
 Ultimately, the structure of the security team at your organization does not matter. What really matters is that the folks that are building these detections are taking the next step: testing them.
 
 
-### Why aren't Security teams testing detections?
+### Why aren't Security teams testing these detections?
 1. Resource shortage
 2. Rely solely on red team engagements
 3. Stubbornness
@@ -54,17 +54,23 @@ Once you have selected your attack simulation tool, you'll want to run the attac
 
 #### Document, document, document
 
-It is extremely important to keep a paper trail of your testing activities so that you can ensure you are updating any broken detections and staying current. Red Canary's Keith McCammon (@kwm) has a great tracking sheet for this specifically, check it out <a href="https://twitter.com/kwm/status/1356382607370575873?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1356382607370575873%7Ctwgr%5Ebc53a753b7fb8ae4e78a84ffdba3784c5a009b94%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fredcanary.com%2Fblog%2Ftesting-validation-security-operations-center%2F">here </a>!
+It is extremely important to keep a paper trail of your testing activities so that you can ensure you are updating any broken detections and staying current. Red Canary's Keith McCammon (@kwm) has a great tracking sheet for this specifically, check it out <a href="https://twitter.com/kwm/status/1613927946485633026">here </a>!
 
 ![mitre](/docs/assets/mitre.png)
 
 #### Update logic behind alerts
 
-This step is necessary if you find that your detections are not firing. It is important to make sure that the SIEM is not skipping the searches and that it is not the issue.
+This step is only necessary if you find that your detections are not firing. Dive into what may be missing from your search or what may be broken. 
+
+- Has the log source formatting changed?
+- Is there a new TTP involved with the technique being detected?
+- Is the SIEM overutilized? Is it skipping searches? Not running the search on-time?
 
 #### Build more detections and keep testing!
 
 Now that you've tested your detections, it is time to keep building and staying current with the trends. You have implemented a formalized process and have helped mature your security team, time to celebrate! 
+
+![a](/docs/assets/a.png)
 
 
 Some great articles/videos that I recommend:
