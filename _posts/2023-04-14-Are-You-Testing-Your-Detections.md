@@ -32,23 +32,21 @@ This is where the fun begins. It is going to feel great when you see those detec
 
 #### Find an attack simulation tool
 
-As you begin looking into what type of simulation tool you need, ask yourself some guiding questions like:
+As you begin looking into what type of simulation tool you need, use some guiding questions. These questions will help you narrow down what is best to use.
 
 - Do I need a free tool or can I get budget for this?
 - What type of attacks will I be performing? (ex: DCSync, Kerberoasting, Brute Force)
 - What type of infrastructure will I be performing the attacks on? (Cloud infrastructure, Linux/Windows servers, Windows workstations, etc)
 - What kind of infrastructure will I host the attack simulation tool on? 
 
-These questions will help you narrow down what is best to use.
-
 I personally recommend Atomic Red Team if you are running attacks against Windows and Linux infrastructure. This is an open source tool with active contributors and is built extremely well. There are plenty of others to choose from if you would like to experiment. 
--https://github.com/redcanaryco/atomic-red-team
--https://github.com/mitre/caldera
--https://github.com/uber-common/metta
--https://github.com/TryCatchHCF/DumpsterFire
+- https://github.com/redcanaryco/atomic-red-team
+- https://github.com/mitre/caldera
+- https://github.com/uber-common/metta
+- https://github.com/TryCatchHCF/DumpsterFire
 
-If you are wanting to run attacks against your Cloud infrastructure, look into Stratus.
--https://github.com/DataDog/stratus-red-team
+For Cloud infrastructure, look into Stratus.
+- https://github.com/DataDog/stratus-red-team
 
 #### Schedule and plan when to run your attacks
 
