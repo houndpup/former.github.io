@@ -42,15 +42,13 @@ As you begin looking into what type of simulation tool you need, ask yourself so
 These questions will help you narrow down what is best to use.
 
 I personally recommend Atomic Red Team if you are running attacks against Windows and Linux infrastructure. This is an open source tool with active contributors and is built extremely well. There are plenty of others to choose from if you would like to experiment. 
-
-https://github.com/redcanaryco/atomic-red-team
-https://github.com/mitre/caldera
-https://github.com/uber-common/metta
-https://github.com/TryCatchHCF/DumpsterFire
+-https://github.com/redcanaryco/atomic-red-team
+-https://github.com/mitre/caldera
+-https://github.com/uber-common/metta
+-https://github.com/TryCatchHCF/DumpsterFire
 
 If you are wanting to run attacks against your Cloud infrastructure, look into Stratus.
-
-https://github.com/DataDog/stratus-red-team
+-https://github.com/DataDog/stratus-red-team
 
 #### Schedule and plan when to run your attacks
 
