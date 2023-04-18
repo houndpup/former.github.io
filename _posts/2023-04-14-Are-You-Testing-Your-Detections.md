@@ -14,7 +14,7 @@ Detection engineers are generally responsible for staying up to date with the la
 Ultimately, the structure of the security team at your organization does not matter. What really matters is that the folks that are building these detections are taking the next step: testing them.
 
 
-### Why aren't Security teams testing these detections?
+### Why Aren't Security Teams Testing These Detections?
 1. Resource shortage
 2. Rely solely on red team engagements
 3. Stubbornness
@@ -26,7 +26,7 @@ I'm sure you're thinking, well, thanks for telling me all of this. What do you e
 
 Fear not... I come with recommendations on how to get started!
 
-### So How Do I Implement This "Testing Process" You Speak Of?
+### So How Do I Implement This "Testing Process"?
 
 This is where the fun begins. It is going to feel great when you see those detections that you've spent long hours building trigger and notify your team. The confidence and morale is going to grow with your SOC, and you will be able to spend more time building new detections.
 
@@ -34,10 +34,10 @@ This is where the fun begins. It is going to feel great when you see those detec
 
 As you begin looking into what type of simulation tool you need, use some guiding questions. These questions will help you narrow down what is best to use.
 
-- Do I need a free tool or can I get budget for this?
+- <i> Do I need a free tool or can I get budget for this?
 - What type of attacks will I be performing? (ex: DCSync, Kerberoasting, Brute Force)
 - What type of infrastructure will I be performing the attacks on? (Cloud infrastructure, Linux/Windows servers, Windows workstations, etc)
-- What kind of infrastructure will I host the attack simulation tool on? 
+- What kind of infrastructure will I host the attack simulation tool on? </i>
 
 I personally recommend Atomic Red Team if you are running attacks against Windows and Linux infrastructure. This is an open source tool with active contributors and is built extremely well. There are plenty of others to choose from if you would like to experiment. 
 - https://github.com/redcanaryco/atomic-red-team
