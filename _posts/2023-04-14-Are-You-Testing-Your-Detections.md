@@ -75,6 +75,6 @@ Now that you've tested your detections, it is time to keep building and staying 
 
 Some great articles/videos that I recommend:
 
-Keith Mccammon's Testing the Detections in your SOC: https://redcanary.com/blog/testing-validation-security-operations-center/
-Kyle Bailey's talk at Blue Team Summit (SANS) on Detection Maturity: https://www.youtube.com/watch?v=Dxccs8UDu6w
-Patrick Bareiss and Jose Hernandez on DaC, Detection as Code: https://www.youtube.com/watch?v=_JEvyem4ryg
+- Keith Mccammon's Testing the Detections in your SOC: https://redcanary.com/blog/testing-validation-security-operations-center/
+- Kyle Bailey's talk at Blue Team Summit (SANS) on Detection Maturity: https://www.youtube.com/watch?v=Dxccs8UDu6w
+- Patrick Bareiss and Jose Hernandez on DaC, Detection as Code: https://www.youtube.com/watch?v=_JEvyem4ryg
