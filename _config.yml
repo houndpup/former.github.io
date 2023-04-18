@@ -1,4 +1,4 @@
-title: "cybertaw"
+title: "daniel furtaw"
 author: "Daniel Furtaw"
 description: "Logs, Hacks, n More" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
@@ -6,7 +6,7 @@ description: "Logs, Hacks, n More" # This will show up in places like twitter, l
 # All of these are optional and can be removed or commented out
 email: "dfurtaw@splunk.com"
 twitter_username: "furtawww"
-github_username: "cybertaw"
+github_username: "houndpup"
 linkedin_username: "furtaw"
 #facebook_username: username
 #flickr_username: username
@@ -18,7 +18,7 @@ linkedin_username: "furtaw"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "pages-themes/minimal@v0.2.0"
+theme: pages-themes/minimal@v0.2.0
 
 rss: rss
 
