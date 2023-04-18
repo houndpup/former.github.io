@@ -4,7 +4,7 @@
 If you answered yes, fantastic! You can go elsewhere. But, if you answered no, you're in trouble. I encourage you to read on.
 
 All jokes aside, this is a topic that can set apart good security teams from great. 
-
+---
 ### Building Detections
 
 Before I get into why this can make a good team great, I want to briefly talk about a specialty called <i> Detection Engineering </i>. You've probably heard the term Detection Engineering thrown around or mentioned over the past couple of years and for good reason. As security teams mature, it is important to have dedicated personnel who build and test detections. When I say detections I mean correlation searches, alerts, or even just scheduled queries on a SIEM platform. Really anything that is expected to "detect" the bad guy who is compromising your company.
@@ -13,6 +13,7 @@ Detection engineers are generally responsible for staying up to date with the la
 
 Ultimately, the structure of the security team at your organization does not matter. What really matters is that the folks that are building these detections are taking the next step: testing them.
 
+---
 
 ### Why aren't Security teams testing detections?
 1. Resource shortage
@@ -48,7 +49,6 @@ https://github.com/mitre/caldera
 https://github.com/uber-common/metta
 https://github.com/TryCatchHCF/DumpsterFire
 
-
 If you are wanting to run attacks against your Cloud infrastructure, look into Stratus.
 
 https://github.com/DataDog/stratus-red-team
@@ -64,6 +64,8 @@ This step is necessary if you find that your detections are not firing. It is im
 4. Build more detections and keep testing!
 
 Now that you've tested your detections, it is time to keep building and staying current with the trends. You have implemented a formalized process and have helped mature your security team, time to celebrate! 
+
+---
 
 Some great articles/videos that I recommend:
 
