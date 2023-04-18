@@ -4,7 +4,7 @@
 If you answered yes, fantastic! You can go elsewhere. But, if you answered no, you're in trouble. I encourage you to read on.
 
 All jokes aside, this is a topic that can set apart good security teams from great. 
----
+
 ### Building Detections
 
 Before I get into why this can make a good team great, I want to briefly talk about a specialty called <i> Detection Engineering </i>. You've probably heard the term Detection Engineering thrown around or mentioned over the past couple of years and for good reason. As security teams mature, it is important to have dedicated personnel who build and test detections. When I say detections I mean correlation searches, alerts, or even just scheduled queries on a SIEM platform. Really anything that is expected to "detect" the bad guy who is compromising your company.
@@ -13,7 +13,6 @@ Detection engineers are generally responsible for staying up to date with the la
 
 Ultimately, the structure of the security team at your organization does not matter. What really matters is that the folks that are building these detections are taking the next step: testing them.
 
----
 
 ### Why aren't Security teams testing detections?
 1. Resource shortage
@@ -31,7 +30,7 @@ Fear not... I come with recommendations on how to get started!
 
 This is where the fun begins. It is going to feel great when you see those detections that you've spent long hours building trigger and notify your team. The confidence and morale is going to grow with your SOC, and you will be able to spend more time building new detections.
 
-1. Find an attack simulation tool
+#### Find an attack simulation tool
 
 As you begin looking into what type of simulation tool you need, ask yourself some guiding questions like:
 
@@ -53,19 +52,18 @@ If you are wanting to run attacks against your Cloud infrastructure, look into S
 
 https://github.com/DataDog/stratus-red-team
 
-2. Schedule and plan when to run your attacks
+#### Schedule and plan when to run your attacks
 
 Once you have selected your attack simulation tool, you'll want to run the attack techniques that are covered by your detections. <b> Make sure that you have notified your security department that this will be occuring on X date </b>. This should be a frequent process to keep your detections up to date and fresh. Once they are complete, check to ensure your detections have triggered.
 
-3. Update logic behind alerts
+#### Update logic behind alerts
 
 This step is necessary if you find that your detections are not firing. It is important to make sure that the SIEM is not skipping the searches and that it is not the issue.
 
-4. Build more detections and keep testing!
+#### Build more detections and keep testing!
 
 Now that you've tested your detections, it is time to keep building and staying current with the trends. You have implemented a formalized process and have helped mature your security team, time to celebrate! 
 
----
 
 Some great articles/videos that I recommend:
 
