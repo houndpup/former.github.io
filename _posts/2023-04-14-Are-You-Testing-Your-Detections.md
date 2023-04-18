@@ -52,6 +52,12 @@ For Cloud infrastructure, look into Stratus.
 
 Once you have selected your attack simulation tool, you'll want to run the attack techniques that are covered by your detections. <b> Make sure that you have notified your security department that this will be occuring on X date </b>. This should be a frequent process to keep your detections up to date and fresh. Once they are complete, check to ensure your detections have triggered.
 
+#### Document, document, document
+
+It is extremely important to keep a paper trail of your testing activities so that you can ensure you are updating any broken detections and staying current. Red Canary's Keith McCammon (@kwm) has a great tracking sheet for this specifically, check it out <a href="https://twitter.com/kwm/status/1356382607370575873?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1356382607370575873%7Ctwgr%5Ebc53a753b7fb8ae4e78a84ffdba3784c5a009b94%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fredcanary.com%2Fblog%2Ftesting-validation-security-operations-center%2F">here </a>!
+
+![mitre](/docs/assets/mitre.png)
+
 #### Update logic behind alerts
 
 This step is necessary if you find that your detections are not firing. It is important to make sure that the SIEM is not skipping the searches and that it is not the issue.
